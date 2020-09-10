@@ -172,12 +172,14 @@ header {
   text-align: center;
   color: #f10215;
 }
-.shopCar i{
+
+.shopCar i {
   font-family: 'icomoon';
   margin-right: 5px;
   font-style: normal;
 }
-.shopCar span{
+
+.shopCar span {
   width: 15px;
   height: 15px;
   background-color: #f10215;
@@ -189,6 +191,7 @@ header {
   font-size: 10px;
   line-height: 15px;
 }
+
 .hotwords {
   position: absolute;
   top: 68px;
@@ -196,7 +199,7 @@ header {
 }
 
 /*小导航部分*/
-.navitems{
+.navitems {
   width: 770px;
   height: 40px;
   position: absolute;
@@ -212,39 +215,42 @@ header {
   margin-right: 0px;
 }
 
-.navitems li a{
+.navitems li a {
   font-size: 16px;
   font-weight: 700;
   color: #555555;
 }
-.navitems li a:hover{
+
+.navitems li a:hover {
   color: #f10215;
 }
-.navitems .space{
+
+.navitems .space {
   margin-top: 14px;
   margin-left: 17px;
   margin-right: -13px;
 }
+
 /*页面底部*/
 
-footer{
+footer {
   margin-top: 35px;
   height: 500px;
   background-color: #EAEAEA;
 }
 
-.service{
+.service {
   padding: 30px 0;
   border-bottom: 1px solid #DEDEDE;
 
 }
 
-.service .w{
+.service .w {
   height: 43px;
 
 }
 
-.service ul li{
+.service ul li {
   width: 297px;
   height: 43px;
   position: relative;
@@ -252,7 +258,7 @@ footer{
   float: left;
 }
 
-.service li h5{
+.service li h5 {
   position: absolute;
   top: 0;
   left: 38px;
@@ -261,22 +267,107 @@ footer{
   background: url("../images/ico.png") no-repeat;
 }
 
-.service li:nth-child(2) h5{
+.service li:nth-child(2) h5 {
   background-position: 0 -43px;
 }
 
-.service li:nth-child(3) h5{
+.service li:nth-child(3) h5 {
   background-position: 0 -86px;
 }
 
-.service li:nth-child(4) h5{
+.service li:nth-child(4) h5 {
   background-position: 0 -129px;
 }
 
-.service li p{
+.service li p {
   font-weight: 700;
   font-size: 14px;
   margin-left: 82px;
+}
+
+/*帮助模块*/
+.help {
+  height: 200px;
+  border-bottom: 1px solid #DEDEDE;
+  padding-top: 25px;
+  box-sizing: border-box;
 
 }
 
+.help dl{
+  width: 192px;
+  float: left;
+}
+
+.help dt {
+  height: 30px;
+}
+
+.help dd {
+  height: 22px;
+}
+
+.help .fr {
+  width: 200px;
+  height: 150px;
+  background: url("../images/ico_footer.png") no-repeat;
+}
+
+.help .fr h5{
+  font-size: 16px;
+  font-family: "Microsoft YaHei UI";
+  font-weight: normal;
+  padding-left: 35px;
+  margin-bottom: 18px;
+}
+
+.help .fr p{
+  font-size: 11px;
+  font-family: "Microsoft YaHei UI";
+  font-weight: normal;
+  width: 180px;
+  color: #999999;
+  line-height: 18px;
+  position: center;
+}
+
+.help .fr a{
+  margin-left: 140px;
+}
+/*底部版权*/
+.copyright {
+  padding-top: 20px;
+  text-align: center;
+  color: #666666;
+  font-size: 12px;
+}
+
+.copyright span{
+  margin: 0 10px;
+}
+.copyright a{
+  color: #666666;
+}
+.foot-icon a {
+  margin: 20px 4px 0;
+  display: inline-block;
+  width: 103px;
+  height: 33px;
+  color: #666666;
+  background: url("../images/ico_footer.png") no-repeat 0 -150px;
+}
+.foot-icon a:nth-child(2){
+  background-position: -103px -150px;
+}
+.foot-icon a:nth-child(3){
+  background-position: 0px -183px;
+}
+.foot-icon a:nth-child(4){
+  background-position: -103px -183px;
+}
+.foot-icon a:nth-child(5){
+  background-position: 0px -216px;
+}
+.foot-icon a:nth-child(6){
+  background-position: -103px -216px;
+}
